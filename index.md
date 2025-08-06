@@ -4,9 +4,11 @@ layout: homepage
 
 ## About Me
 
-I am a second-year M.S. student at [KAIST AI](https://gsai.kaist.ac.kr/), advised by [Prof. Jong Chul Ye](https://bispl.weebly.com/professor.html). Before that, I received my B.S. degree in Computer Science and Biological Sciences (Double Major) at KAIST in Feb. 2024.
+Hi! I'm a second-year M.S. student at [KAIST AI](https://gsai.kaist.ac.kr/), advised by [Prof. Jong Chul Ye](https://bispl.weebly.com/professor.html). Before that, I received my B.S. degree in Computer Science and Biological Sciences (Double Major) at KAIST in Feb. 2024.
 
 I have a broad interest in generative models that work across various modalities (images, video, text) and their applications. Much of my recent research involves using such multimodal systems to drive tangible solutions for practical, real-world challenges. Please refer to my [CV](assets/files/CV.pdf) for details.
+
+I'm open to any sorts of research collaborations! Feel free to get in touch 😁.
 
 <!-- ## Research Interests
 

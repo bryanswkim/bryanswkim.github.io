@@ -40,6 +40,11 @@
       {{ link.others }}
       {% endif %}
     </div>
+    <div class="links">
+      {% if link.github_stars %}
+        <span class="github-stars" data-repo="{{ link.github_stars }}"></span>
+      {% endif %}
+    </div>
   </div>
 </div>
 </li>

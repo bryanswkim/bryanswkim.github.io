@@ -8,7 +8,7 @@ main:
     code: https://github.com/bryanswkim/Chain-of-Zoom
     page: https://bryanswkim.github.io/chain-of-zoom/
     image: ./assets/img/coz.jpg
-    notes: 600+ Github Stars
+    github_stars: bryanswkim/Chain-of-Zoom
 
   - title: "FlowDPS: Flow-Driven Posterior Sampling for Inverse Problems"
     authors: Jeongsol Kim*, <strong>Bryan Sangwoo Kim*</strong>, Jong Chul Ye (*equal contribution)
