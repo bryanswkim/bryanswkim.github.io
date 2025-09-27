@@ -8,7 +8,7 @@ Hi! I'm a second-year M.S. student at [KAIST AI](https://gsai.kaist.ac.kr/), adv
 
 I have a broad interest in generative models that work across various modalities (images, video, text) and their applications. Much of my recent research involves using such multimodal systems to drive tangible solutions for practical, real-world challenges. Please refer to my [CV](assets/files/CV_0927.pdf) for details.
 
-I'm actively seeking research opportunities for 2026. Please feel free to contact me!
+I'm greatly interested in research opportunities for 2026. Please feel free to contact me!
 
 <!-- ## Research Interests
 
