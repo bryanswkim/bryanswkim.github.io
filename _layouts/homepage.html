@@ -51,11 +51,19 @@
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <!-- <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a> -->
+        <position style="font-size:1.10rem;">{{ site.affiliation }}</position>
         <br>
         {% endif %}
-        {% if site.email %}
-        <email>{{ site.email }}</email>
+        {% if site.email1 %}
+        <email>{{ site.email1 }}</email>
+        {% endif %}
+        {% if site.email2 %}
+        <email>{{ site.email2 }}</email>
+        {% endif %}
+        {% if site.position %}
+        <br>
+        <position style="font-size:1.10rem;">{{ site.citizenship }}</position>
         {% endif %}
 
         <br>
