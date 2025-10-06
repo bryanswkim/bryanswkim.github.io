@@ -23,6 +23,7 @@ I'm greatly interested in research opportunities for 2026. Please feel free to c
 - **[2024.03]** I started M.S. at [KAIST Graduate School of AI](https://gsai.kaist.ac.kr/). (Advisor: Prof. Jong Chul Ye)
 
 {% include_relative _includes/publications.md %}
+{% include_relative _includes/preprints.md %}
 {% include_relative _includes/patents.md %}
 {% include_relative _includes/awards.md %}
 {% include_relative _includes/projects.md %}
