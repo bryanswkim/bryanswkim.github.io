@@ -6,7 +6,7 @@ layout: homepage
 
 Hi! I'm a second-year M.S. student at [KAIST AI](https://gsai.kaist.ac.kr/), advised by [Prof. Jong Chul Ye](https://bispl.weebly.com/professor.html). I earned my B.S. in Computer Science and Biological Sciences (Double Major) from KAIST in Feb. 2024.
 
-I have a broad interest in generative models that work across various modalities (images, video, text) and their applications. Much of my recent research involves using such multimodal systems to drive tangible solutions for practical, real-world challenges. Please refer to my [CV](assets/files/CV_0927.pdf) for details.
+I have a broad interest in generative models that work across various modalities (images, video, text) and their applications. Much of my recent research involves using such multimodal systems to drive tangible solutions for practical, real-world challenges. Please refer to my [CV](assets/files/CV_Bryan_Sangwoo_Kim.pdf) for details.
 
 I'm greatly interested in research opportunities for 2026. Please feel free to contact me!
 

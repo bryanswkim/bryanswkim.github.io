@@ -1,4 +1,4 @@
-## Research Projects (Government/Industrial)
+## Research Projects (Government/Industry Funded)
 
 <ul style="margin:0 0 5px;">
   <li> <strong>Acquisition of 3D Precise Information of Microstructure and Development of Authoring Technology
