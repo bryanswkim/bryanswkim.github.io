@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="Tiled Prompts"/>
+  <meta property="og:description" content="Project Page for Tiled Prompts"/>
+  <meta property="og:url" content="tiled-prompts.github.io"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/images/tp_teaser.jpg" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Tiled Prompts">
+  <meta name="twitter:description" content="Project Page for Tiled Prompts">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/tp_teaser.jpg">
+  <meta name="twitter:card" content="Project Page for Tiled Prompts">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Tiled Prompts</title>
+  <link rel="icon" type="image/x-icon" href="">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+  </script>
+
+  <script
+  defer
+  src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"
+  ></script>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css"
+  />
+
+  <style>
+  .tp {
+    color: rgb(255, 127, 0);
+  }
+
+  .center-image-half {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+  }
+
+  hr.solid {
+  border-top: 2px solid #bbb;
+  }
+
+  table, td, th {
+  border: 1px solid black;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  </style>
+
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title"><span class="tp">Tiled Prompts</span>: <br> Overcoming Prompt Misguidance in <br> Image and Video Super-Resolution</h1>
+          <div class="is-size-4 publication-authors">
+            <!-- Paper authors -->
+            <span class="author-block"><a href="https://bryanswkim.github.io/" target="_blank">Bryan Sangwoo Kim</a><sup>*</sup>,</span>
+            <span class="author-block"><a href="https://jh-park99.github.io/" target="_blank">Jonghyun Park</a><sup>*</sup>,</span>
+            <span class="author-block"><a href="https://bispl.weebly.com/professor.html" target="_blank">Jong Chul Ye</a></span>
+          </div>
+          <div class="is-size-4 publication-authors">
+            <span class="author-block" style="color:black"> KAIST AI </span>
+            <span class="eql-cntrb" style="color:black"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+          </div>
+
+          <!-- Arxiv Link -->
+          <span class="link-block">
+            <a href="https://arxiv.org/abs/2602.03342" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            </ARXIV>
+            <span class="icon">
+              <i class="ai ai-arxiv"></i>
+            </span>
+            <span>arXiv</span>
+            </a>
+          </span>
+
+          <!-- PDF Link -->
+          <span class="link-block">
+            <a href="https://arxiv.org/pdf/2602.03342" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            </ARXIV>
+            <span class="icon">
+              <i class="fas fa-file-pdf "></i>
+            </span>
+            <span>PDF</span>
+          </a>
+          </span>
+      
+          <!-- Github Link -->
+          <span class="link-block">
+            <a href="https://bryanswkim.github.io/tiled-prompts/" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span>
+            <span>Code: Coming Soon!</span>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Teaser Carousel-->
+<section class="hero teaser">
+
+  <div class="columns is-centered" style="margin-top:-20px">
+    <h1 class="is-size-3"> 
+      <mark style="background: rgb(255, 255, 102)"> Tiled Prompts solve prompt misguidance for SR models,</mark>
+    </h1>
+  </div>
+  <div class="columns is-centered" style="margin-top:-10px">
+    <h1 class="is-size-3"> 
+      <mark style="background: rgb(255, 255, 102)"> enabling high-quality reconstruction under latent tiling.</mark>
+    </h1>
+  </div> 
+
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered" style="margin-top:20px">
+      </div>
+
+      <img src="static/images/tp_teaser.png" class="ba-before-img" alt="Teaser 1 Version">
+    </div>
+  </div>
+</section>
+<!-- End Teaser Carousel -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-sixths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+
+          <p style="font-size:18px;">
+            Text-conditioned diffusion models have advanced image and video super-resolution by using prompts as semantic priors, and modern super-resolution pipelines typically rely on latent tiling to scale to high resolutions. In practice, a single global caption is used with the latent tiling, often causing <strong>prompt misguidance</strong>.
+            Specifically, a coarse global prompt often misses localized details <strong>(errors of omission)</strong> and provides locally irrelevant guidance <strong>(errors of commission)</strong> which leads to substandard results at the tile level. To solve this, we propose <strong>Tiled Prompts</strong>, a unified framework for image and video super-resolution that generates a tile-specific prompt for each latent tile and performs super-resolution under locally text-conditioned posteriors to resolve prompt misguidance with minimal overhead.
+            Our experiments on high resolution real-world images and videos show that tiled prompts bring consistent gains in perceptual quality and fidelity, while reducing hallucinations and tile-level artifacts that can be found in global-prompt baselines.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Method -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-sixths">
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/tp_method_main.png" alt="tp_method_main"/>
+          <p style=" font-size:18px; margin-bottom: 20px;">
+            <br>
+            <strong>(a) Baseline Methods.</strong> Conditioning super-resolution models solely on a single global text prompt demonstrates the problem of prompt misguidance. The global prompt, while broadly describing the image, proves insufficient to constrain the fine-grained super-resolution process. <br>
+            <strong>(b) Tiled Prompts (Ours).</strong> Our framework leverages dense, context-aware <i><strong>tiled prompts</strong></i> for each region. This localized textual guidance provides precise semantic anchors, enabling the super-resolution model to produce significantly sharper, more coherent, and perceptually richer details.
+          </p>
+          <img src="static/images/tp_method_video.jpg" class="center-image-half" alt="tp_method_video"/>
+          <p style=" font-size:18px; margin-top: -5px;">
+            <br>
+            Our <strong>Tiled Prompts</strong> framework for VSR divides the low-resolution video into a grid of spatio-temporal blocks (or volumes), where each block is tiled both spatially and temporally.
+            A VLM then analyzes the local video content and generates a detailed text prompt to guide the reconstruction of the specific block.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Method -->
+
+<!-- <section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-sixths">
+        <h2 class="title is-3">Experimental Results</h2>
+        <h2 class="title is-4" style="margin-bottom: 30px;">1. Image Super-Resolution</h2>
+
+        <div class="content has-text-justified" style="margin-top:-15px; margin-bottom: 30px;">
+          <img src="static/images/tp_image_comparison2.jpg" alt="tp_image_comparison"/>
+          <p style="margin-top:5px; margin-bottom: 10px; font-size:18px;">
+            <strong>(a,b) Input</strong>: The low-resolution input and a cropped tile to be upsampled. <br>
+            <strong>(c) SR with Global Prompt</strong>: The baseline result using only a single, coarse global prompt. As the text prompt does not provide sufficient guidance, super-resolution results are inaccurate. <br>
+            <strong>(d) SR with Tiled Prompt (Ours)</strong>: Our method uses dense, localized textual guidance to generate accurate and semantically plausible high-frequency details consistent with the context. <br>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- Experimental Results 1 -->
+<section class="hero teaser is-light">
+
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered" style="margin-top:50px">
+        <h2 class="title is-3">Experimental Results</h2>
+      </div>
+      <div class="columns is-centered" style="margin-top:20px">
+        <h1 class="title is-4"> 1. Image Super-Resolution </h1>
+      </div> 
+
+      <img src="static/images/tp_image_comparison.png" class="center-image" style="margin-top:30px" alt="image comparison">
+
+      <div id="results-carousel" class="carousel results-carousel" style="margin-top:0px">
+        <div class="item">
+          <img src="static/images/tp_image_appendix1.png" alt="MY ALT TEXT"/>
+        </div>
+        <div class="item">
+          <img src="static/images/tp_image_appendix2.png" alt="MY ALT TEXT"/>
+        </div>
+        <div class="item">
+          <img src="static/images/tp_image_appendix3.png" alt="MY ALT TEXT"/>
+        </div>
+        <div class="item">
+          <img src="static/images/tp_image_appendix4.png" alt="MY ALT TEXT"/>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- <section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-sixths">
+        <div class="content has-text-justified" style="margin-top:-40px; margin-bottom: 20px;">
+          <p style="font-size:18px;">
+            <strong>(a,b) Input</strong>: The low-resolution input and a cropped tile to be upsampled. <br>
+            <strong>(c) SR with Global Prompt</strong>: The baseline result using only a single, coarse global prompt. As the text prompt does not provide sufficient guidance, super-resolution results are inaccurate. <br>
+            <strong>(d) SR with Tiled Prompt (Ours)</strong>: Our method uses dense, localized textual guidance to generate accurate and semantically plausible high-frequency details consistent with the context. <br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- Experimental Results 2 -->
+ <section class="hero teaser">
+
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered" style="margin-top:50px">
+        <h2 class="title is-3">Experimental Results</h2>
+      </div>
+      <div class="columns is-centered" style="margin-top:20px">
+        <h1 class="title is-4"> 2. Video Super-Resolution </h1>
+      </div> 
+
+      <div id="results-carousel" class="carousel results-carousel" style="margin-top:0px">
+
+        <div class="item">
+          <div class="content has-text-justified" style="margin-top:10px; margin-bottom:-10px;">
+            <div class="column is-12">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-4"><p style="font-size:18px;"><strong>Input LR Video</strong></p></div>
+                <div class="column is-4"><p style="font-size:18px;"><strong>SR with Global Prompt</strong></p></div>
+                <div class="column is-4"><p style="font-size:18px;"><strong>SR with Tiled Prompt (Ours)</strong></p></div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-multiline is-centered" style="margin-top:0px">
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0004/boxed_lr_0004.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0004/crop_global_0004.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0004/crop_local_0004.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="content has-text-justified" style="margin-top:30px; margin-bottom:-10px;">
+            <div class="column is-12">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-3"><p style="font-size:18px;"><strong>Input LR Video</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>LR Crop</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>SR with Global Prompt</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>SR with Tiled Prompt (Ours)</strong></p></div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-multiline is-centered" style="margin-top:0px">
+            <div class="column is-12">
+              <img src="static/videos/shots/tp_video_0004.png" alt="MY ALT TEXT"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="content has-text-justified" style="margin-top:10px; margin-bottom:-10px;">
+            <div class="column is-12">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-4"><p style="font-size:18px;"><strong>Input LR Video</strong></p></div>
+                <div class="column is-4"><p style="font-size:18px;"><strong>SR with Global Prompt</strong></p></div>
+                <div class="column is-4"><p style="font-size:18px;"><strong>SR with Tiled Prompt (Ours)</strong></p></div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-multiline is-centered" style="margin-top:0px">
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0003/boxed_lr_0003.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0003/crop_global_0003.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0003/crop_local_0003.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="content has-text-justified" style="margin-top:30px; margin-bottom:-10px;">
+            <div class="column is-12">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-3"><p style="font-size:18px;"><strong>Input LR Video</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>LR Crop</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>SR with Global Prompt</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>SR with Tiled Prompt (Ours)</strong></p></div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-multiline is-centered" style="margin-top:0px">
+            <div class="column is-12">
+              <img src="static/videos/shots/tp_video_0003.png" alt="MY ALT TEXT"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="content has-text-justified" style="margin-top:10px; margin-bottom:-10px;">
+            <div class="column is-12">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-4"><p style="font-size:18px;"><strong>Input LR Video</strong></p></div>
+                <div class="column is-4"><p style="font-size:18px;"><strong>SR with Global Prompt</strong></p></div>
+                <div class="column is-4"><p style="font-size:18px;"><strong>SR with Tiled Prompt (Ours)</strong></p></div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-multiline is-centered" style="margin-top:0px">
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0002/boxed_lr_0002.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0002/crop_global_0002.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0002/crop_local_0002.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="content has-text-justified" style="margin-top:30px; margin-bottom:-10px;">
+            <div class="column is-12">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-3"><p style="font-size:18px;"><strong>Input LR Video</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>LR Crop</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>SR with Global Prompt</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>SR with Tiled Prompt (Ours)</strong></p></div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-multiline is-centered" style="margin-top:0px">
+            <div class="column is-12">
+              <img src="static/videos/shots/tp_video_0002.png" alt="MY ALT TEXT"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="content has-text-justified" style="margin-top:10px; margin-bottom:-10px;">
+            <div class="column is-12">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-4"><p style="font-size:18px;"><strong>Input LR Video</strong></p></div>
+                <div class="column is-4"><p style="font-size:18px;"><strong>SR with Global Prompt</strong></p></div>
+                <div class="column is-4"><p style="font-size:18px;"><strong>SR with Tiled Prompt (Ours)</strong></p></div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-multiline is-centered" style="margin-top:0px">
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0001/boxed_lr_0001.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0001/crop_global_0001.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0001/crop_local_0001.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="content has-text-justified" style="margin-top:30px; margin-bottom:-10px;">
+            <div class="column is-12">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-3"><p style="font-size:18px;"><strong>Input LR Video</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>LR Crop</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>SR with Global Prompt</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>SR with Tiled Prompt (Ours)</strong></p></div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-multiline is-centered" style="margin-top:0px">
+            <div class="column is-12">
+              <img src="static/videos/shots/tp_video_0001.png" alt="MY ALT TEXT"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="content has-text-justified" style="margin-top:10px; margin-bottom:-10px;">
+            <div class="column is-12">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-4"><p style="font-size:18px;"><strong>Input LR Video</strong></p></div>
+                <div class="column is-4"><p style="font-size:18px;"><strong>SR with Global Prompt</strong></p></div>
+                <div class="column is-4"><p style="font-size:18px;"><strong>SR with Tiled Prompt (Ours)</strong></p></div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-multiline is-centered" style="margin-top:0px">
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0000/boxed_lr_0000.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0000/crop_global_0000.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="column is-4">
+              <video autoplay muted loop playsinline controls preload="none" class="center-image" style="width:100%;">
+                <source src="static/videos/0000/crop_local_0000.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="content has-text-justified" style="margin-top:30px; margin-bottom:-10px;">
+            <div class="column is-12">
+              <div class="columns is-centered has-text-centered">
+                <div class="column is-3"><p style="font-size:18px;"><strong>Input LR Video</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>LR Crop</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>SR with Global Prompt</strong></p></div>
+                <div class="column is-3"><p style="font-size:18px;"><strong>SR with Tiled Prompt (Ours)</strong></p></div>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-multiline is-centered" style="margin-top:0px">
+            <div class="column is-12">
+              <img src="static/videos/shots/tp_video_0000.png" alt="MY ALT TEXT"/>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+<!-- </section>
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-sixths">
+        <div class="content has-text-justified" style="margin-top:-40px; margin-bottom: 20px;">
+          <p style="font-size:18px;">
+            <strong>(a,b) Input</strong>: The low-resolution input and a cropped tile to be upsampled. <br>
+            <strong>(c) SR with Global Prompt</strong>: The baseline result using only a single, coarse global prompt. As the text prompt does not provide sufficient guidance, super-resolution results are inaccurate. <br>
+            <strong>(d) SR with Tiled Prompt (Ours)</strong>: Our method uses dense, localized textual guidance to generate accurate and semantically plausible high-frequency details consistent with the context. <br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the  <a href="https://nerfies.github.io" target="_blank">Nerfies</a>  project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Slider Start -->
+<script>
+function initBeforeAfterSlider(sliderElement, options = {}) {
+  const afterWrapper = sliderElement.querySelector('.ba-after-wrapper');
+  const handle = sliderElement.querySelector('.ba-slider-handle');
+
+  if (!afterWrapper || !handle) {
+    // console.warn("Before-after slider elements not found in:", sliderElement);
+    return;
+  }
+
+  // --- Configuration with new defaults ---
+  const config = {
+    // Default initial position set to 75%
+    initialPosPercent: options.initialPosPercent !== undefined ? options.initialPosPercent : 60,
+    // Default draggable range: 60% to 100%
+    minDragPercent: options.minDragPercent !== undefined ? options.minDragPercent : 60,
+    maxDragPercent: options.maxDragPercent !== undefined ? options.maxDragPercent : 100
+  };
+
+  // Validate and clamp configuration percentages
+  config.initialPosPercent = Math.max(0, Math.min(100, config.initialPosPercent));
+  config.minDragPercent = Math.max(0, Math.min(100, config.minDragPercent));
+  config.maxDragPercent = Math.max(0, Math.min(100, config.maxDragPercent));
+
+  // Ensure minDragPercent is not greater than maxDragPercent
+  if (config.minDragPercent > config.maxDragPercent) {
+    // If so, swap them or reset to a valid full range as a fallback
+    // For simplicity, we'll swap them here.
+    [config.minDragPercent, config.maxDragPercent] = [config.maxDragPercent, config.minDragPercent];
+    // console.warn("minDragPercent was greater than maxDragPercent. They have been swapped.");
+  }
+
+  // Ensure initial position is within the now defined draggable range
+  config.initialPosPercent = Math.max(config.minDragPercent, Math.min(config.maxDragPercent, config.initialPosPercent));
+
+  // Set initial state based on validated configuration
+  afterWrapper.style.width = config.initialPosPercent + '%';
+  handle.style.left = config.initialPosPercent + '%';
+
+  let isDragging = false;
+
+  const moveSliderTo = (xPosition) => {
+    const sliderRect = sliderElement.getBoundingClientRect();
+    const containerWidth = sliderRect.width;
+
+    if (containerWidth === 0) return; // Avoid division by zero if not rendered
+
+    // Define pixel limits based on percentage constraints
+    const minX = (config.minDragPercent / 100) * containerWidth;
+    const maxX = (config.maxDragPercent / 100) * containerWidth;
+
+    let newLeft = xPosition - sliderRect.left; // Raw position relative to slider container
+
+    // Apply new constraints
+    newLeft = Math.max(minX, Math.min(newLeft, maxX));
+
+    const newWidthPercent = (newLeft / containerWidth) * 100;
+    afterWrapper.style.width = newWidthPercent + '%';
+    handle.style.left = newWidthPercent + '%';
+  };
+
+  // --- Mouse event handlers ---
+  const onMouseDown = (e) => {
+    e.preventDefault();
+    isDragging = true;
+    sliderElement.classList.add('dragging');
+    document.addEventListener('mousemove', onMouseMove);
+    document.addEventListener('mouseup', onMouseUp);
+  };
+
+  const onMouseMove = (e) => {
+    if (!isDragging) return;
+    moveSliderTo(e.clientX);
+  };
+
+  const onMouseUp = () => {
+    if (isDragging) {
+      isDragging = false;
+      sliderElement.classList.remove('dragging');
+      document.removeEventListener('mousemove', onMouseMove);
+      document.removeEventListener('mouseup', onMouseUp);
+    }
+  };
+
+  handle.addEventListener('mousedown', onMouseDown);
+
+  // --- Touch event handlers ---
+  const onTouchStart = (e) => {
+    isDragging = true;
+    sliderElement.classList.add('dragging');
+    moveSliderTo(e.touches[0].clientX); // Apply constraints from initial touch
+    document.addEventListener('touchmove', onTouchMove, { passive: false });
+    document.addEventListener('touchend', onTouchEnd);
+  };
+
+  const onTouchMove = (e) => {
+    if (!isDragging) return;
+    e.preventDefault();
+    moveSliderTo(e.touches[0].clientX);
+  };
+
+  const onTouchEnd = () => {
+    if (isDragging) {
+      isDragging = false;
+      sliderElement.classList.remove('dragging');
+      document.removeEventListener('touchmove', onTouchMove);
+      document.removeEventListener('touchend', onTouchEnd);
+    }
+  };
+
+  handle.addEventListener('touchstart', onTouchStart, { passive: true });
+
+  // Click on image to move slider (will also respect constraints via moveSliderTo)
+  sliderElement.addEventListener('click', (e) => {
+    if (e.target === handle || (handle && handle.contains(e.target))) {
+      return;
+    }
+    if (!isDragging) {
+      moveSliderTo(e.clientX);
+    }
+  });
+}
+
+// Initialize sliders when the DOM is ready and for carousel items
+document.addEventListener('DOMContentLoaded', () => {
+  const carouselElement = document.getElementById('results-carousel');
+
+  const initializeSlidersWithin = (parentElement) => {
+    parentElement.querySelectorAll('.before-after-slider:not(.ba-slider-initialized)').forEach(sliderEl => {
+      initBeforeAfterSlider(sliderEl);
+      sliderEl.classList.add('ba-slider-initialized'); // Mark as initialized
+    });
+  };
+
+  if (carouselElement) {
+    // If using Bulma Carousel (or similar that might re-render/clone slides)
+    if (typeof bulmaCarousel !== 'undefined') {
+      const carouselInstances = bulmaCarousel.attach('#results-carousel', {
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        // IMPORTANT: Add other existing carousel options here
+        on: {
+          // Initialize/re-initialize sliders when carousel is ready or slides change
+          ready: (bulmaCarouselInstance) => {
+            initializeSlidersWithin(bulmaCarouselInstance.element);
+          },
+          // You might also need to hook into 'slide' or 'after' events if slides are cloned dynamically
+          // and the 'ready' event is not sufficient.
+          // Example:
+          // after: (bulmaCarouselInstance, slideIdx) => {
+          //   initializeSlidersWithin(bulmaCarouselInstance.element);
+          // }
+        }
+      });
+      // Initial pass in case 'ready' doesn't fire immediately or for some setups
+      if (carouselInstances && carouselInstances.length > 0) {
+        carouselInstances.forEach(inst => initializeSlidersWithin(inst.element));
+      } else {
+         initializeSlidersWithin(carouselElement); // Fallback
+      }
+    } else {
+      // If not using Bulma Carousel, or it's not detected, initialize directly
+      initializeSlidersWithin(carouselElement);
+    }
+  } else {
+    // If no #results-carousel, initialize any other sliders on the page
+    initializeSlidersWithin(document.body); // Or a more specific container
+  }
+});
+
+window.addEventListener('load', function() {
+      // Double-check scrollRestoration here too, though early setting is better.
+      if ('scrollRestoration' in history && history.scrollRestoration !== 'manual') {
+        history.scrollRestoration = 'manual';
+      }
+      window.scrollTo(0, 0);
+    });
+
+</script>
+<!-- Slider End -->
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+</body>
+</html> 
