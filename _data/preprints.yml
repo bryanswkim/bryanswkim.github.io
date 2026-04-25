@@ -1,18 +1,27 @@
 main:
 
-  - title: "Align Your Query: Representation Alignment for Multimodality Medical Object Detection"
-    authors: Ara Seo*, <strong>Bryan Sangwoo Kim*</strong>, Hyungjin Chung, Jong Chul Ye <strong>(*equal contribution)</strong>
+  - title: "Tiled Prompts: Overcoming Prompt Misguidance in Image and Video Super-Resolution"
+    authors: <strong>Bryan Sangwoo Kim*</strong>, Jonghyun Park*, Jong Chul Ye
     # conference_short: 
-    conference: Under Review (Submitted to arXiv in Oct. 2025)
+    conference: Under Review
+    pdf: https://arxiv.org/abs/2602.03342
+    # code: 
+    page: https://bryanswkim.github.io/tiled-prompts/
+    image: ./assets/img/tiledprompts.png
+
+  - title: "Align Your Query: Representation Alignment for Multimodality Medical Object Detection"
+    authors: Ara Seo*, <strong>Bryan Sangwoo Kim*</strong>, Hyungjin Chung, Jong Chul Ye
+    # conference_short: 
+    conference: Under Review
     pdf: https://arxiv.org/abs/2510.02789
     # code: 
     page: https://araseo.github.io/alignyourquery/
     image: ./assets/img/ayq.jpg
 
   - title: "Extreme Blind Image Restoration via Prompt-Conditioned Information Bottleneck"
-    authors: Hongeun Kim*, <strong>Bryan Sangwoo Kim*</strong>, Jong Chul Ye <strong>(*equal contribution)</strong>
+    authors: Hongeun Kim*, <strong>Bryan Sangwoo Kim*</strong>, Jong Chul Ye
     # conference_short: 
-    conference: Under Review (Submitted to arXiv in Oct. 2025)
+    conference: Under Review
     pdf: https://www.arxiv.org/abs/2510.00728
     # code: 
     image: ./assets/img/pcib.jpg

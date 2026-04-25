@@ -12,7 +12,7 @@ main:
     notes: Spotlight Presentation (688/21575=3.19%)
 
   - title: "FlowDPS: Flow-Driven Posterior Sampling for Inverse Problems"
-    authors: Jeongsol Kim*, <strong>Bryan Sangwoo Kim*</strong>, Jong Chul Ye <strong>(*equal contribution)</strong>
+    authors: Jeongsol Kim*, <strong>Bryan Sangwoo Kim*</strong>, Jong Chul Ye
     conference_short: ICCV
     conference: ICCV 2025
     pdf: https://arxiv.org/abs/2503.08136
@@ -28,7 +28,7 @@ main:
     image: ./assets/img/free2guide.jpg
 
   - title: "VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide"
-    authors: Dohun Lee*, <strong>Bryan Sangwoo Kim*</strong>, Geon Yeong Park, Jong Chul Ye <strong>(*equal contribution)</strong>
+    authors: Dohun Lee*, <strong>Bryan Sangwoo Kim*</strong>, Geon Yeong Park, Jong Chul Ye
     conference_short: CVPR
     conference: CVPR 2025
     pdf: https://arxiv.org/abs/2410.04364
