@@ -1,5 +1,14 @@
 main:
 
+  - title: "Tiled Prompts: Overcoming Prompt Misguidance in Image and Video Super-Resolution"
+    authors: <strong>Bryan Sangwoo Kim*</strong>, Jonghyun Park*, Jong Chul Ye
+    conference_short: ECCV
+    conference: ECCV 2026
+    pdf: https://arxiv.org/abs/2602.03342
+    # code: 
+    page: https://bryanswkim.github.io/tiled-prompts/
+    image: ./assets/img/tiledprompts.png
+
   - title: "Chain-of-Zoom: Extreme Super-Resolution via Scale Autoregression and Preference Alignment"
     authors: <strong>Bryan Sangwoo Kim</strong>, Jeongsol Kim, Jong Chul Ye
     conference_short: NeurIPS

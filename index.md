@@ -17,6 +17,7 @@ I'm greatly interested in any research collaborations. Please feel free to conta
 
 ## News
 
+- **[2026.06]** A paper ([Tiled Prompts](https://bryanswkim.github.io/tiled-prompts/)) is accepted to **ECCV 2026**.
 - **[2025.12]** I was awarded [Best Master Student of the Year](https://bispl.weebly.com/bispl-hall-of-fame) at BISPL.
 - **[2025.09]** A paper ([Chain-of-Zoom](https://bryanswkim.github.io/chain-of-zoom/)) is accepted to **NeurIPS 2025** as a **Spotlight paper**.
 - **[2025.06]** 2 papers ([FlowDPS](https://arxiv.org/abs/2503.08136), [Free<sup>2</sup>Guide](https://kjm981995.github.io/free2guide/)) are accepted to **ICCV 2025**.
